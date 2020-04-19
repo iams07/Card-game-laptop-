@@ -202,7 +202,7 @@ def start(screen,p1,p2,p3,p4,deck,dealt,trump,w,win):
             a = (i+2,arr[j])
             check.append(a)
     random.shuffle(check)
-    i = 0
+    i = 0 
     for i in range(52):
         a = check[i]
         if i<13:
